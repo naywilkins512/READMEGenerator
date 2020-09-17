@@ -41,20 +41,18 @@ const inquirer = require("inquirer");
         .then(answers => {
             const {license, title ,description, install, usage, contribution, test} = answers
             let doc = 
-            `
-                <h1>${license}!</h1>
-                <p>${title}</p>
-                <p>${description}</p>
-                <p>${install}</p>
-                <p>${usage}</p>
-                <p>${contribution}</p>
-                <p>${test}</p>
-            `
-            fs.writeFile('testing.txt', doc, function(err){
+            `#${license}
+            #${title}
+            #${description}
+            ##${install}
+            #${usage}
+            #${contribution}
+            #${test}`
+            fs.writeFile('README.md', doc, function(err){
                 if (err) {
                     return console.log(err);
                 } else {
-                    console.log("nailed it!")
+                    console.log("README Generated!")
                 }
             })
         });
