@@ -71,7 +71,8 @@ ${contribution}
 ${test}
 # Questions
 
-[Github Profile Link](https:www.github.com/${username})`
+[Github Profile Link](https://github.com/${username})`
+
             fs.writeFile('./README.md', doc, function(err){
                 if (err) {
                     return console.log(err);
