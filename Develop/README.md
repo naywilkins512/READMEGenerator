@@ -3,7 +3,7 @@
 # Description
 This is a readMe generator for you and ur friends to use all the time
 # Table Of Contents
-- [Installation Instructions] (#installation-instructions)
+- [Installation Instructions] (#Installation-Instructions)
 - [Usage Instructions](#usage-instructions)
 - [Licenses](#licenses)
 - [Contribution Guidelines](#contribution-guidelines)
