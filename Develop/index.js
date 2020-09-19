@@ -9,7 +9,7 @@ const inquirer = require("inquirer");
         {
             type: "list",
             message: "choose your license name",
-            choices: ["license A", "licencse c", "license B"] ,
+            choices: ["MIT license", "GNU General Public License v3.0", "The Unlicense"] ,
             name: 'license',
         },
             {
@@ -40,7 +40,9 @@ const inquirer = require("inquirer");
         ])
         .then(answers => {
             const {license, title ,description, install, usage, contribution, test} = answers
+            
             let doc =
+
 `
 # ${title}
 # Description
@@ -48,10 +50,10 @@ ${description}
 # Table Of Contents
 
 - [Installation Instructions](#installation-instructions)
-- [Usage Instructions](#usage-instructions)
+- [Usage](#usage)
 - [Licenses](#licenses)
-- [Contribution Guidelines](#contribution-guidelines)
-- [Test Instructions](#test-instructions)
+- [Contributing](#contributing)
+- [Tests](#tests)
 # Installation Instructions
 
 ${install}
@@ -59,9 +61,9 @@ ${install}
 ${usage}
 # Licenses
 ${license}
-# Contribution Guidelines
+# Contributing
 ${contribution}
-# Test Instructions
+# Tests
 ${test}`
             fs.writeFile('./README.md', doc, function(err){
                 if (err) {
