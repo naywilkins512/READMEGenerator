@@ -46,12 +46,14 @@ const inquirer = require("inquirer");
 # Description
 ${description}
 # Table Of Contents
-- [Installation Instructions] (#installation-instructions)
+
+- [Installation Instructions](#installation-instructions)
 - [Usage Instructions](#usage-instructions)
 - [Licenses](#licenses)
 - [Contribution Guidelines](#contribution-guidelines)
 - [Test Instructions](#test-instructions)
 # Installation Instructions
+
 ${install}
 # Usage Instructions
 ${usage}

@@ -1,22 +1,22 @@
 
-# nays projecty
+# nay
 # Description
-This is a readMe generator for you and ur friends to use all the time
+brief
 # Table Of Contents
 
-- [Installation Instructions] (#installation-instructions)
+- [Installation Instructions](#installation-instructions)
 - [Usage Instructions](#usage-instructions)
 - [Licenses](#licenses)
 - [Contribution Guidelines](#contribution-guidelines)
 - [Test Instructions](#test-instructions)
-
 # Installation Instructions
-you go to it and click the thing put it in ur terminal and boom
+
+asdf
 # Usage Instructions
-use it all the time
+hh
 # Licenses
 licencse c
 # Contribution Guidelines
-me
+akjhadfa
 # Test Instructions
-test it out on mobile if u dare
+fasldkajadf
