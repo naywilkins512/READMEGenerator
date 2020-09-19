@@ -6,12 +6,10 @@ const inquirer = require("inquirer");
   
     inquirer
         .prompt([
-        {
-            type: "list",
-            message: "choose your license name",
-            choices: ["MIT license", "GNU General Public License v3.0", "The Unlicense"] ,
-            name: 'license',
-        },
+            {
+                message: 'What is your Github Username?',
+                name: 'username',
+            },
             {
                 message: 'What is your project Title?',
                 name: 'title',
@@ -36,10 +34,16 @@ const inquirer = require("inquirer");
         message: 'test instructions',
         name: 'test',
         },
+        {
+            type: "list",
+            message: "choose your license name",
+            choices: ["MIT license", "GNU General Public License v3.0", "The Unlicense"] ,
+            name: 'license',
+        }
 
         ])
         .then(answers => {
-            const {license, title ,description, install, usage, contribution, test} = answers
+            const {license, title ,description, install, usage, contribution, test, username} = answers
             
             let doc =
 
@@ -64,7 +68,10 @@ ${license}
 # Contributing
 ${contribution}
 # Tests
-${test}`
+${test}
+# Questions
+
+[Github Profile Link](https:www.github.com/${username})`
             fs.writeFile('./README.md', doc, function(err){
                 if (err) {
                     return console.log(err);
@@ -76,6 +83,6 @@ ${test}`
 
     // }
 
-// function call to initialize program
+// // function call to initialize program
 // init();
 
