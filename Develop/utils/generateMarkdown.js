@@ -22,8 +22,8 @@ function generateMarkdown({license, title ,description, install, usage, contribu
   # Licenses
   ${license}
   # Contributing
-  -Fork a repo
-  -Clone to your repository
+  - Fork a repo
+  - Clone to your repository
   ${contribution}
   # Tests
   ${test}

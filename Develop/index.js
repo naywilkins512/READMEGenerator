@@ -37,7 +37,7 @@ function init() {
         {
             type: "list",
             message: "choose your license name",
-            choices: ["MIT license", "GNU General Public License v3.0", "The Unlicense"] ,
+            choices: ["MIT license", "GNU General Public License v3.0", "Apache", "The Unlicense"] ,
             name: 'license',
         }
 
