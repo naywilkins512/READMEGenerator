@@ -3,7 +3,7 @@ function generateMarkdown({license, title ,description, install, usage, contribu
 
   return `
   # ${title}
-  ![Shield](https://img.shields.io/static/v1?label=License&message=${license.replace(/ /g, "-")}&color=green)
+  ![Shield](https://img.shields.io/static/v1?label=License&message=${license.replace(/ /g, "_")}&color=green)
   # Description
   ${description}
   # Table Of Contents
