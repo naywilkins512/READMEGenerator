@@ -47,7 +47,7 @@ function init() {
             let doc = generateMarkdown(answers)
 
 
-            fs.writeFile('./README.md', doc, function(err){
+            fs.writeFile('../README.md', doc, function(err){
                 if (err) {
                     return console.log(err);
                 } else {
