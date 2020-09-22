@@ -1,8 +1,8 @@
 const fs = require("fs");
 const inquirer = require("inquirer");
-
+const generateMarkdown = require("./utils/generateMarkdown")
 // function to initialize program
-// function init() {
+function init() {
   
     inquirer
         .prompt([
@@ -27,7 +27,7 @@ const inquirer = require("inquirer");
             name: 'usage',
         },
         {
-            message: 'Enter the contribution guidelines',
+            message: 'Enter the Contributing Guidelines',
             name: 'contribution',
         },
         {
@@ -43,35 +43,9 @@ const inquirer = require("inquirer");
 
         ])
         .then(answers => {
-            const {license, title ,description, install, usage, contribution, test, username} = answers
             
-            let doc =
+            let doc = generateMarkdown(answers)
 
-`
-# ${title}
-# Description
-${description}
-# Table Of Contents
-
-- [Installation Instructions](#installation-instructions)
-- [Usage](#usage)
-- [Licenses](#licenses)
-- [Contributing](#contributing)
-- [Tests](#tests)
-# Installation Instructions
-
-${install}
-# Usage Instructions
-${usage}
-# Licenses
-${license}
-# Contributing
-${contribution}
-# Tests
-${test}
-# Questions
-
-[Github Profile Link](https://github.com/${username})`
 
             fs.writeFile('./README.md', doc, function(err){
                 if (err) {
@@ -82,8 +56,8 @@ ${test}
             })
         });
 
-    // }
+    }
 
 // // function call to initialize program
-// init();
+init();
 
