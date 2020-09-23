@@ -1,8 +1,8 @@
 
-  # README Generator
-  ![Shield](https://img.shields.io/static/v1?label=License&message=GNU_General_Public_License_v3.0&color=green)
+  # 
+  ![Shield](https://img.shields.io/static/v1?label=License&message=MIT_license&color=green)
   # Description
-  a readme generator based on user input
+  
   # Table Of Contents
   
   - [Installation Instructions](#installation-instructions)
@@ -14,13 +14,13 @@
   # Installation Instructions
   
   
-  clone this repo to your local
+  
   # Usage 
-  node index.js
+  
   # License
   Copyright (c) 2020, Nay Wilkins
 All rights reserved.
-  This source code is licensed under the GNU General Public License v3.0 found in the
+  This source code is licensed under the MIT license found in the
 LICENSE file in the root directory of this source tree. 
   # Contributing
   
@@ -36,8 +36,8 @@ LICENSE file in the root directory of this source tree.
   
   
   # Tests
-  npm run test
+  
   # Questions
   
-  [Github Profile Link](https://github.com/naywilkins512)
+  [Github Profile Link](https://github.com/clear)
   - email: [nathanwilkins01@gmail.com](mailto:nathanwilkins01@gmail.com) with your name in the subject for any questions

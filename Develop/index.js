@@ -7,23 +7,23 @@ function init() {
     inquirer
         .prompt([
             {
-                message: 'Enter your name?',
+                message: 'Enter your name',
                 name: 'name',
             },
             {
-                message: 'Enter your email?',
+                message: 'Enter your email',
                 name: 'email',
             },
             {
-                message: 'Enter your Github Username?',
+                message: 'Enter your Github Username',
                 name: 'username',
             },
             {
-                message: 'Enter your project Title?',
+                message: 'Enter your project Title',
                 name: 'title',
             },
             {
-                message: 'Give a brief description?',
+                message: 'Give a brief description',
                 name: 'description',
             },
             {
@@ -44,7 +44,7 @@ function init() {
         },
         {
             type: "list",
-            message: "choose your license name",
+            message: "choose your license",
             choices: ["MIT license", "GNU General Public License v3.0", "Apache", "The Unlicense"] ,
             name: 'license',
         }
