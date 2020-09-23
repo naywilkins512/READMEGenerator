@@ -25,15 +25,17 @@ All rights reserved.
   This source code is licensed under the ${license} license found in the
 LICENSE file in the root directory of this source tree. 
   # Contributing
-  - Fork a repo
-  - Clone to your repository
+  - Fork The Project Repo
+  - Clone to your local computer
+  - Navigate to your local repo
+  - 
   ${contribution}
   # Tests
   ${test}
   # Questions
   
   [Github Profile Link](https://github.com/${username})
-  - email: ${email}`
+  - email: ${email} with your name in the subject for any questions`
   
   ;
 }
