@@ -2,7 +2,7 @@
   # README Generator
   ![Shield](https://img.shields.io/static/v1?label=License&message=GNU_General_Public_License_v3.0&color=green)
   # Description
-  a Readme generator based on user input
+  a readme generator based on user input
   # Table Of Contents
   
   - [Installation Instructions](#installation-instructions)
@@ -14,7 +14,7 @@
   # Installation Instructions
   
   
-  clone this repo to your local computer
+  clone this repo to your local
   # Usage 
   node index.js
   # License
