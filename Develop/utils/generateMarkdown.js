@@ -28,7 +28,6 @@ LICENSE file in the root directory of this source tree.
   - Fork The Project Repo
   - Clone to your local computer
   - Navigate to your local repo
-  - 
   ${contribution}
   # Tests
   ${test}

@@ -7,27 +7,27 @@ function init() {
     inquirer
         .prompt([
             {
-                message: 'What is your name?',
+                message: 'Enter your name?',
                 name: 'name',
             },
             {
-                message: 'What is your email?',
+                message: 'Enter your email?',
                 name: 'email',
             },
             {
-                message: 'What is your Github Username?',
+                message: 'Enter your Github Username?',
                 name: 'username',
             },
             {
-                message: 'What is your project Title?',
+                message: 'Enter your project Title?',
                 name: 'title',
             },
             {
-                message: 'Give a brief description',
+                message: 'Give a brief description?',
                 name: 'description',
             },
             {
-                message: 'What are the installation instructions',
+                message: 'What are the installation instructions?',
                 name: 'install',
             },
             {
