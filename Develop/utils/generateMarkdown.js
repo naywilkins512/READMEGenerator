@@ -13,6 +13,7 @@ function generateMarkdown({license, title ,description, install, usage, contribu
   - [Licenses](#licenses)
   - [Contributing](#contributing)
   - [Tests](#tests)
+  
   # Installation Instructions
   
   
@@ -25,9 +26,17 @@ All rights reserved.
   This source code is licensed under the ${license} found in the
 LICENSE file in the root directory of this source tree. 
   # Contributing
+  
   - Fork The Project Repo
   - Clone to your local computer
   - Navigate to your local repo
+  - Pull the latest changes
+  - Create a New Branch
+  - Make your changes
+  - Commit your changes
+  - Push your changes to your fork
+  - Open a pull request
+  
   ${contribution}
   # Tests
   ${test}

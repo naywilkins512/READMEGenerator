@@ -35,7 +35,7 @@ function init() {
             name: 'usage',
         },
         {
-            message: 'Enter the Contributing Guidelines',
+            message: 'Enter the Contributing Guidelines (leave blank for default)',
             name: 'contribution',
         },
         {
