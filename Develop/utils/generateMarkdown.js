@@ -17,10 +17,13 @@ function generateMarkdown({license, title ,description, install, usage, contribu
   
   
   ${install}
-  # Usage Instructions
+  # Usage 
   ${usage}
-  # Licenses
-  ${license}
+  # License
+  Copyright (c) 2020, ${name}
+All rights reserved.
+  This source code is licensed under the ${license} license found in the
+LICENSE file in the root directory of this source tree. 
   # Contributing
   - Fork a repo
   - Clone to your repository
@@ -29,7 +32,9 @@ function generateMarkdown({license, title ,description, install, usage, contribu
   ${test}
   # Questions
   
-  [Github Profile Link](https://github.com/${username})`
+  [Github Profile Link](https://github.com/${username})
+  - email: ${email}`
+  
   ;
 }
 

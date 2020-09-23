@@ -7,6 +7,14 @@ function init() {
     inquirer
         .prompt([
             {
+                message: 'What is your name?',
+                name: 'name',
+            },
+            {
+                message: 'What is your email?',
+                name: 'email',
+            },
+            {
                 message: 'What is your Github Username?',
                 name: 'username',
             },
