@@ -1,5 +1,5 @@
 // function to generate markdown for README
-function generateMarkdown({license, title ,description, install, usage, contribution, test, username}) {
+function generateMarkdown({license, title ,description, install, usage, contribution, test, username, name, email}) {
 
   return `
   # ${title}
@@ -22,7 +22,7 @@ function generateMarkdown({license, title ,description, install, usage, contribu
   # License
   Copyright (c) 2020, ${name}
 All rights reserved.
-  This source code is licensed under the ${license} license found in the
+  This source code is licensed under the ${license} found in the
 LICENSE file in the root directory of this source tree. 
   # Contributing
   - Fork The Project Repo
@@ -34,7 +34,7 @@ LICENSE file in the root directory of this source tree.
   # Questions
   
   [Github Profile Link](https://github.com/${username})
-  - email: ${email} with your name in the subject for any questions`
+  - email: [${email}](mailto:${email}) with your name in the subject for any questions`
   
   ;
 }
