@@ -3,6 +3,9 @@
   ![Shield](https://img.shields.io/static/v1?label=License&message=GNU_General_Public_License_v3.0&color=green)
   # Description
   a README generator based on user input
+  
+  ![example](./Develop/assets/Process.gif)
+  
   # Table Of Contents
   
   - [Installation Instructions](#installation-instructions)
